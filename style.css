@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto+Mono&display=swap');
+
+*{margin: 0;padding:0;}
+
+body{
+	background-color: #FFF;
+}
+  
+  h1 {
+    text-align: center;
+	color: #000000;
+	font-family:'Poppins';
+	font-size: 2em;
+	margin-bottom: 20px;
+  }
+
+  h2 {
+    text-align: left;
+	color: #000000;
+	font-family:'Poppins';
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    font: 0.9em 'Poppins', sans-serif;
+	text-decoration: none;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font: 1.3em 'Poppins', sans-serif;
+	text-decoration: none;
+  }
+  
+ /* Estilos para o input */
+ #tarefa {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    font-family:'Poppins';
+}
+
+#tarefa:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Estilos para o botão */
+#adicionar {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family:'Poppins';
+}
+
+#adicionar:hover {
+    background-color: #0056b3;
+}
+  
+.excluir {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
